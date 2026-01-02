@@ -6,7 +6,7 @@ export default function About() {
     <main>
       {/* 1. PAGE HEADER */}
       <div className="page-header">
-        <h1>About JB Insurance & Capital</h1>
+        <h1>JB Insurance & Capital</h1>
         <p>Trusted Insurance Advisory & Risk Management Partner since 2024.</p>
       </div>
 
