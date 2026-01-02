@@ -1,4 +1,5 @@
 "use client";
+
 import React from 'react';
 
 export default function About() {
@@ -32,11 +33,11 @@ export default function About() {
           {/* Right: Director's Quote Box */}
           <div style={{flex: "1", minWidth: "300px", background: "#0b3c6d", padding: "40px", borderRadius: "16px", color: "white", position: "relative", boxShadow: "0 15px 40px rgba(11, 60, 109, 0.2)"}}>
             <i className="fas fa-quote-left" style={{fontSize: "40px", opacity: "0.2", position: "absolute", top: "30px", left: "30px"}}></i>
-            <h3 style={{fontFamily: "'Cinzel', serif", fontSize: "20px", marginBottom: "15px", position: "relative", zIndex: "1"}}>Director's Message</h3>
+            <h3 style={{fontFamily: "'Cinzel', serif", fontSize: "20px", marginBottom: "15px", position: "relative", zIndex: "1"}}>Director&apos;s Message</h3>
             <p style={{fontSize: "13px", fontStyle: "italic", opacity: "0.9", lineHeight: "1.8", marginBottom: "20px", position: "relative", zIndex: "1"}}>
-              "Our journey began with a simple yet powerful belief — <strong>insurance should protect people, not confuse them.</strong> 
-              We focus on understanding our clients' risks first, and only then recommend suitable solutions. 
-              Our commitment is to provide honest advice and long-term value to every client we serve."
+              &quot;Our journey began with a simple yet powerful belief — <strong>insurance should protect people, not confuse them.</strong> 
+              We focus on understanding our clients&apos; risks first, and only then recommend suitable solutions. 
+              Our commitment is to provide honest advice and long-term value to every client we serve.&quot;
             </p>
             <div style={{borderTop: "1px solid rgba(255,255,255,0.2)", paddingTop: "15px", marginTop: "15px"}}>
               <strong style={{display: "block", fontSize: "14px"}}>Director</strong>
@@ -102,7 +103,7 @@ export default function About() {
       <section className="section">
         <div className="section-title">
           <h2>Our Approach</h2>
-          <p>We don't just sell policies; we manage your risks.</p>
+          <p>We don&apos;t just sell policies; we manage your risks.</p>
         </div>
         
         {/* FIXED: Flexible Layout for Approach Cards */}

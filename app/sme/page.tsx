@@ -1,5 +1,3 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function SMEInsurance() {
@@ -144,7 +142,7 @@ export default function SMEInsurance() {
               <ul style={{fontSize: "12px", color: "#555", paddingLeft: "15px", margin: 0, lineHeight: "1.6"}}>
                 <li>• Machinery Breakdown (MBD)</li>
                 <li>• Electronic Equipment (EEI)</li>
-                <li>• Contractor's All Risk (CAR)</li>
+                <li>• Contractor&apos;s All Risk (CAR)</li>
               </ul>
             </div>
           </div>

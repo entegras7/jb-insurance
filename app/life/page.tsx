@@ -1,5 +1,3 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function LifeInsurance() {
@@ -80,7 +78,7 @@ export default function LifeInsurance() {
         <div style={{maxWidth: "900px", margin: "0 auto", textAlign: "center", marginBottom: "30px"}}>
           <h2 style={{fontFamily: "'Cinzel', serif", fontSize: "28px", color: "#0b3c6d", marginBottom: "15px"}}>A Promise for the Future</h2>
           <p style={{fontSize: "14px", color: "#555", lineHeight: "1.8"}}>
-            Life insurance is the most important financial tool to secure your family's future. 
+            Life insurance is the most important financial tool to secure your family&apos;s future. 
             Whether you are looking for pure protection through Term Plans or wealth creation via Savings Plans, 
             <strong>JB Insurance & Capital</strong> helps you find the right policy to meet your life goals.
           </p>
@@ -138,7 +136,7 @@ export default function LifeInsurance() {
             </div>
             <h4 style={{fontFamily: "'Cinzel', serif", color: "#0b3c6d", fontSize: "18px", marginBottom: "10px"}}>Child Future Plan</h4>
             <p style={{fontSize: "12px", color: "#666", lineHeight: "1.6", marginBottom: "15px"}}>
-              Secure your child's education and marriage dreams. Ensures funding continues even if you are not around.
+              Secure your child&apos;s education and marriage dreams. Ensures funding continues even if you are not around.
             </p>
             <div style={{borderTop: "1px solid #eee", paddingTop: "15px", width: "100%"}}>
               <ul style={{fontSize: "12px", color: "#555", paddingLeft: "15px", margin: 0, lineHeight: "1.6"}}>

@@ -1,5 +1,3 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function HealthInsurance() {
@@ -71,7 +69,7 @@ export default function HealthInsurance() {
       }}>
         <h1 style={{fontFamily: "'Cinzel', serif", fontSize: "34px", marginBottom: "12px", textShadow: "0 2px 10px rgba(0,0,0,0.5)"}}>Health Insurance</h1>
         <p style={{fontSize: "14px", opacity: "0.95", maxWidth: "600px", margin: "0 auto", color: "#f8fafc", textShadow: "0 1px 3px rgba(0,0,0,0.8)"}}>
-          Secure your family's future. Comprehensive medical coverage with cashless treatments.
+          Secure your family&apos;s future. Comprehensive medical coverage with cashless treatments.
         </p>
       </div>
 

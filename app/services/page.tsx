@@ -1,5 +1,4 @@
-"use client";
-import React from 'react';
+"use client"
 import Link from 'next/link';
 
 export default function Services() {
@@ -116,7 +115,7 @@ export default function Services() {
         <p style={{fontSize: "15px", color: "#555", maxWidth: "800px", margin: "0 auto", lineHeight: "1.8"}}>
           At JB Insurance & Capital, we understand that every individual and business has unique protection needs. 
           Our comprehensive suite of insurance solutions is designed to provide you with financial security and peace of mind. 
-          Whether you are safeguarding your family's future, protecting your vehicle, or securing your business assets, 
+          Whether you are safeguarding your family&apos;s future, protecting your vehicle, or securing your business assets, 
           our expert advisors are here to guide you through every step of the process.
         </p>
       </div>
@@ -147,7 +146,7 @@ export default function Services() {
               <div className="icon-circle"><i className="fas fa-heartbeat"></i></div>
               <h3 className="card-title">Health Insurance</h3>
               <p className="card-desc">
-                Secure your family's health with plans that cover hospitalization costs, critical illnesses, and preventive checkups.
+                Secure your family&apos;s health with plans that cover hospitalization costs, critical illnesses, and preventive checkups.
               </p>
               <ul className="features-list">
                 <li><i className="fas fa-check-circle"></i> Cashless Treatment</li>
