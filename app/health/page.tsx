@@ -1,57 +1,9 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function HealthInsurance() {
   return (
     <main>
       {/* --- INJECT CUSTOM STYLES FOR HOVER EFFECTS --- */}
-      <style jsx>{`
-        .addon-card {
-          background: white;
-          padding: 25px 20px;
-          border-radius: 16px;
-          border: 1px solid #eee;
-          text-align: center;
-          transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 5px 15px rgba(0,0,0,0.03);
-        }
-        .addon-card:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 15px 30px rgba(11, 60, 109, 0.1);
-          border-color: rgba(11, 60, 109, 0.1);
-        }
-        .addon-card::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 4px;
-          background: linear-gradient(90deg, #2ecc71, #0b3c6d);
-          transform: scaleX(0);
-          transition: transform 0.4s ease;
-        }
-        .addon-card:hover::after {
-          transform: scaleX(1);
-        }
-        .icon-circle {
-          width: 55px;
-          height: 55px;
-          border-radius: 50%;
-          margin: 0 auto 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 22px;
-          transition: all 0.3s ease;
-        }
-        .addon-card:hover .icon-circle {
-          transform: scale(1.1) rotate(5deg);
-        }
-      `}</style>
 
       {/* --- PAGE BANNER --- */}
       <div className="page-header" style={{
@@ -71,7 +23,7 @@ export default function HealthInsurance() {
       }}>
         <h1 style={{fontFamily: "'Cinzel', serif", fontSize: "34px", marginBottom: "12px", textShadow: "0 2px 10px rgba(0,0,0,0.5)"}}>Health Insurance</h1>
         <p style={{fontSize: "14px", opacity: "0.95", maxWidth: "600px", margin: "0 auto", color: "#f8fafc", textShadow: "0 1px 3px rgba(0,0,0,0.8)"}}>
-          Secure your family's future. Comprehensive medical coverage with cashless treatments.
+          Secure your family&apos;s future. Comprehensive medical coverage with cashless treatments.
         </p>
       </div>
 

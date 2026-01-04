@@ -1,57 +1,10 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function SMEInsurance() {
   return (
     <main>
       {/* --- INJECT CUSTOM STYLES FOR HOVER EFFECTS --- */}
-      <style jsx>{`
-        .addon-card {
-          background: white;
-          padding: 25px 20px;
-          border-radius: 16px;
-          border: 1px solid #eee;
-          text-align: center;
-          transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 5px 15px rgba(0,0,0,0.03);
-        }
-        .addon-card:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 15px 30px rgba(11, 60, 109, 0.1);
-          border-color: rgba(11, 60, 109, 0.1);
-        }
-        .addon-card::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 4px;
-          background: linear-gradient(90deg, #0b3c6d, #f39c12);
-          transform: scaleX(0);
-          transition: transform 0.4s ease;
-        }
-        .addon-card:hover::after {
-          transform: scaleX(1);
-        }
-        .icon-circle {
-          width: 55px;
-          height: 55px;
-          border-radius: 50%;
-          margin: 0 auto 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 22px;
-          transition: all 0.3s ease;
-        }
-        .addon-card:hover .icon-circle {
-          transform: scale(1.1) rotate(5deg);
-        }
-      `}</style>
+      
 
       {/* --- PAGE BANNER --- */}
       <div className="page-header" style={{
@@ -144,7 +97,7 @@ export default function SMEInsurance() {
               <ul style={{fontSize: "12px", color: "#555", paddingLeft: "15px", margin: 0, lineHeight: "1.6"}}>
                 <li>• Machinery Breakdown (MBD)</li>
                 <li>• Electronic Equipment (EEI)</li>
-                <li>• Contractor's All Risk (CAR)</li>
+                <li>• Contractor&apos;s All Risk (CAR)</li>
               </ul>
             </div>
           </div>

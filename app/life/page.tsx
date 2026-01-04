@@ -1,57 +1,9 @@
-"use client";
-import React from 'react';
 import Link from 'next/link';
 
 export default function LifeInsurance() {
   return (
     <main>
       {/* --- INJECT CUSTOM STYLES FOR HOVER EFFECTS --- */}
-      <style jsx>{`
-        .addon-card {
-          background: white;
-          padding: 25px 20px;
-          border-radius: 16px;
-          border: 1px solid #eee;
-          text-align: center;
-          transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 5px 15px rgba(0,0,0,0.03);
-        }
-        .addon-card:hover {
-          transform: translateY(-8px);
-          box-shadow: 0 15px 30px rgba(11, 60, 109, 0.1);
-          border-color: rgba(11, 60, 109, 0.1);
-        }
-        .addon-card::after {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          height: 4px;
-          background: linear-gradient(90deg, #ff9900, #0b3c6d);
-          transform: scaleX(0);
-          transition: transform 0.4s ease;
-        }
-        .addon-card:hover::after {
-          transform: scaleX(1);
-        }
-        .icon-circle {
-          width: 55px;
-          height: 55px;
-          border-radius: 50%;
-          margin: 0 auto 12px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 22px;
-          transition: all 0.3s ease;
-        }
-        .addon-card:hover .icon-circle {
-          transform: scale(1.1) rotate(5deg);
-        }
-      `}</style>
 
       {/* --- PAGE BANNER --- */}
       <div className="page-header" style={{
@@ -80,7 +32,7 @@ export default function LifeInsurance() {
         <div style={{maxWidth: "900px", margin: "0 auto", textAlign: "center", marginBottom: "30px"}}>
           <h2 style={{fontFamily: "'Cinzel', serif", fontSize: "28px", color: "#0b3c6d", marginBottom: "15px"}}>A Promise for the Future</h2>
           <p style={{fontSize: "14px", color: "#555", lineHeight: "1.8"}}>
-            Life insurance is the most important financial tool to secure your family's future. 
+            Life insurance is the most important financial tool to secure your family&apos;s future. 
             Whether you are looking for pure protection through Term Plans or wealth creation via Savings Plans, 
             <strong>JB Insurance & Capital</strong> helps you find the right policy to meet your life goals.
           </p>
@@ -138,7 +90,7 @@ export default function LifeInsurance() {
             </div>
             <h4 style={{fontFamily: "'Cinzel', serif", color: "#0b3c6d", fontSize: "18px", marginBottom: "10px"}}>Child Future Plan</h4>
             <p style={{fontSize: "12px", color: "#666", lineHeight: "1.6", marginBottom: "15px"}}>
-              Secure your child's education and marriage dreams. Ensures funding continues even if you are not around.
+              Secure your child&apos;s education and marriage dreams. Ensures funding continues even if you are not around.
             </p>
             <div style={{borderTop: "1px solid #eee", paddingTop: "15px", width: "100%"}}>
               <ul style={{fontSize: "12px", color: "#555", paddingLeft: "15px", margin: 0, lineHeight: "1.6"}}>
