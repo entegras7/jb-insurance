@@ -80,56 +80,7 @@ export default function Footer() {
       </div>
 
       {/* --- CSS ANIMATIONS --- */}
-      <style jsx global>{`
-        /* 1. BOTTOM BAR LAYOUT */
-        .bottom-bar {
-          text-align: center;
-          padding-top: 15px;
-          font-size: 11px;
-          color: #64748b;
-          display: flex;
-          justify-content: space-between;
-          max-width: 1200px;
-          margin: 0 auto;
-          flex-wrap: wrap;
-          gap: 10px;
-        }
-        /* Mobile adjustment for Bottom Bar */
-        @media (max-width: 600px) {
-          .bottom-bar {
-            justify-content: center;
-            flex-direction: column;
-          }
-        }
-
-        /* 2. LINK ANIMATION */
-        .footer-link {
-          text-decoration: none;
-          color: #cbd5e1;
-          display: inline-block;
-          transition: all 0.3s ease;
-        }
-        .footer-link:hover {
-          color: #ff9900;
-          transform: translateX(5px);
-        }
-        .legal-link { text-decoration: none; color: #64748b; transition: 0.2s; }
-        .legal-link:hover { color: #ff9900; }
-        
-        /* 3. SOCIAL ICON ANIMATION CLASS */
-        .social-bubble {
-          width: 32px;
-          height: 32px;
-          background: rgba(255,255,255,0.08);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          border-radius: 50%;
-          color: white;
-          text-decoration: none;
-          transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Bouncy spring effect */
-        }
-      `}</style>
+      
     </footer>
   );
 }
